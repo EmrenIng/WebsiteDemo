@@ -1,0 +1,153 @@
+/* Custom Stylesheet */
+ h5 .titletext {
+ 	color: white;
+ }
+ .mains {
+ 	background-color: white;
+ 	margin-bottom: 0px;
+ 	border-radius: 60px 60px 0px 0px; 
+ }
+
+ .foots {
+ 	
+ 	margin: 0;
+   padding: 0;
+ }
+ .container {
+ 	/*background-color: green;*/
+ }
+.section{
+	background-image: url("../images/main/bark.jpg");
+	background-size: 100% 100%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#index-banner {
+	border-radius: 50px 50px 00px 0px; 
+	background-size: 100% 100%;
+	background-image: url("../images/main/barn.png");
+	/*background-color: red;*/
+}
+.main-body {
+	background-image: ;
+	background-color: white;
+}
+.sidebar {
+	background-color: white;
+	height: 100%;
+}
+
+.chip {
+
+	width:80%;
+}
+img .ico {
+	width: 50px;
+	height: 50px;
+}
+.fillen {
+	height: 245px;
+	
+}
+.page-footer {
+	background-color: DodgerBlue;
+	color: black;	
+}
+p {
+	padding: 10px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+
+
+.imgcontain{
+  margin: 10px auto;
+  width: 100%;
+}
+
+.lightBox{
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 40px;
+  border-left-width: 10px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0px 0px 10px #cecece;
+  float: left;
+  height: 100%;
+  margin: 0px 10px; 
+}
+
+.thumb{
+  width: 250px;
+}
+
+p .taggers{
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 7px 0px 0px 0px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.backDrop{
+  background-color: #000;
+  display: none;
+  filter: alpha(opacity=0);
+  height: 100%;
+  left: 0px;
+  opacity: .0;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 50;
+}
+
+.box{
+  border-top-width: 15px;
+  border-right-width: 15px;
+  border-bottom-width: 15px;
+  border-left-width: 15px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0px 0px 5px #444444;
+  display: none;
+  
+  left: 50%;
+  margin-left: -210px;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  z-index: 51;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.close{
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-size: 32px;
+  margin: 10px;
+  position: absolute;
+}
+
+.clear{
+  clear: both;
+}
+
+.checkbox {
+	margin: 0px;
+}
+.header {
+	color: DodgerBlue;
+}
