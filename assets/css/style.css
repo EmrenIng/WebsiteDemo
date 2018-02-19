@@ -21,6 +21,9 @@ p {
  .white-text h5 {
   color: #faf2ce;
  }
+ .white-text .side-nav li a{
+  color: black;
+ }
 
  /*END LINKS*/
  /*BODY*/
