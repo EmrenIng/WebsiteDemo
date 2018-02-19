@@ -1,24 +1,45 @@
 /* Custom Stylesheet */
+/*MAIN*/
+body {
+	background-image: url("../images/main/bgtexture.jpg");
+	background-size: 100% 100%;
+	/*background-size: 2000px 1000px;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+p {
+	padding: 10px;
+}
  h5 .titletext {
- 	color: white;
+ 	color: #faf2ce;
  }
+ /*END MAIN*/
+ /*LINKS*/
+.white-text li a{
+  color: #faf2ce;
+ }
+ .white-text h5 {
+  color: #faf2ce;
+ }
+
+ /*END LINKS*/
+ /*BODY*/
  .mains {
- 	background-color: white;
+ 	background-color: #faf2ce;
  	margin-bottom: 0px;
  	border-radius: 60px 60px 0px 0px; 
  }
 
  .foots {
- 	
- 	margin: 0;
+   margin: 0;
    padding: 0;
  }
  .container {
  	/*background-color: green;*/
  }
 .section{
-	background-image: url("../images/main/bark.jpg");
-	background-size: 100% 100%;
+	margin-top: 0px;
+	padding-top:0px;
 }
 
 .icon-block {
@@ -30,15 +51,15 @@
 #index-banner {
 	border-radius: 50px 50px 00px 0px; 
 	background-size: 100% 100%;
-	background-image: url("../images/main/barn.png");
+	background-image: url("../images/main/barn.jpg");
 	/*background-color: red;*/
 }
 .main-body {
 	background-image: ;
-	background-color: white;
+	background-color: #faf2ce;
 }
 .sidebar {
-	background-color: white;
+	background-color: #faf2ce;
 	height: 100%;
 }
 
@@ -55,12 +76,34 @@ img .ico {
 	
 }
 .page-footer {
-	background-color: DodgerBlue;
+	background-color: #795548;
 	color: black;	
 }
-p {
-	padding: 10px;
+
+
+.fade {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  background-size: 100% 100%;
+  background-image: url("../images/main/barn.jpg");
+  background-color: #aaa;
+  height: 500px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'helvetica';
+  font-size: 80px;
+  font-weight: 100;
+  color: #fff;
 }
+
+.loca {
+  position: absolute;
+  top: 0%;
+  left: 100px;
+}
+
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
