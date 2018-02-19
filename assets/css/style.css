@@ -197,3 +197,16 @@ p .taggers{
 .header {
 	color: DodgerBlue;
 }
+
+@media only screen and (max-device-width: 500px) {
+
+
+.largeImage {
+ width: 100px;
+}
+
+.box {
+}
+
+
+    }
